@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import Snakes from './components/Snakes.vue'
+import tbox from './components/TextBox.vue'
 import {useStore} from './store/index'
 const store=useStore()
 
@@ -22,8 +23,8 @@ const store=useStore()
 
   <!-- <RouterView /> -->
 
-    <Snakes></Snakes>
-
+    <!-- <Snakes></Snakes> -->
+<tbox></tbox>
     
 
 </template>
