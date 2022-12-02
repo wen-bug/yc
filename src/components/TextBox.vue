@@ -1,7 +1,7 @@
 <script setup lang='ts'>
 
 </script>
-
+<!-- 文本框动画 -->
 <template>
     <a >思路 绝对定位full name 选中时改变full name y轴 拉起背景，背景拉起速度没有focus光标快比较突兀。</a>
     <div class="container">

@@ -1,4 +1,5 @@
 <script setup lang='ts'>
+// 贪吃蛇
 import { ref, onMounted } from 'vue';
 const COL=20
 const ROW=20

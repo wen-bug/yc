@@ -2,6 +2,7 @@
 import { RouterLink, RouterView } from 'vue-router'
 import Snakes from './components/Snakes.vue'
 import tbox from './components/TextBox.vue'
+import drag from './components/drag.vue'
 import {useStore} from './store/index'
 const store=useStore()
 
@@ -24,8 +25,8 @@ const store=useStore()
   <!-- <RouterView /> -->
 
     <!-- <Snakes></Snakes> -->
-<tbox></tbox>
-    
+<!-- <tbox></tbox>
+    <drag></drag> -->
 
 </template>
 
