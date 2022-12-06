@@ -1,5 +1,5 @@
 <script setup lang='ts'>
-// 贪吃蛇
+// 贪吃蛇 根据class判断item类型
 import { ref, onMounted } from 'vue';
 const COL=20
 const ROW=20
