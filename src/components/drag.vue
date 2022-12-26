@@ -1,6 +1,6 @@
 <script setup lang='ts'>
 import { onMounted, ref } from 'vue'
-// 拖拽
+// 拖拽选中
 const dta = [
     { id: 1, name: 'dfdf' },
     { id: 2, name: 'ww' },
