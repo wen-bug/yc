@@ -3,6 +3,7 @@
 import {onMounted} from 'vue'
 let canvas: HTMLCanvasElement,ctx: CanvasRenderingContext2D | null
 onMounted(()=>{
+    
     canvas=document.getElementById('cv') as HTMLCanvasElement
     ctx=canvas?.getContext('2d')
 })
