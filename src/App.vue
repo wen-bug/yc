@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import Snakes from './components/Snakes.vue'
-import tbox from './components/TextBox.vue'
+import tbox from './components/animation/TextBox.vue'
 import drag from './components/drag.vue'
 import {useStore} from './store/index'
 const store=useStore()
