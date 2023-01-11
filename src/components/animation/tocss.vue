@@ -12,14 +12,30 @@ const m = () => {
 
 <template>
     <div class="m">
-        <p>sfwfwef</p>
-        <button @click="m">dd</button>
+        <div class="main">
+            safsaflkjsaflkjsaflaskfjslf
+        </div>
+        <div class="side">asdfsafsafsfs</div>
     </div>
 </template>
 
 <style lang='less' scoped>
 .m {
+
     --color: #fff;
+    display: table;
+    border-spacing: 1em 0;
+    width: 100%;
+    .main{
+        display: table-cell;
+        width: 10%;
+        
+    }
+    .side{
+        display: table-cell;
+        width: 30%;
+       
+    }
 }
 
 p {
